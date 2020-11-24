@@ -2,15 +2,15 @@ const path = require('path')
 const http = require('http')
 const express = require('express')
 const socketio = require('socket.io')
-const { generateMessage, generateLocationMessage } = require('./src/utils/message')
-const { addUser, getUser, getUsersInRoom, removeUser } = require('./src/utils/users')
+const { generateMessage, generateLocationMessage } = require('./utils/message')
+const { addUser, getUser, getUsersInRoom, removeUser } = require('./utils/users')
 
 const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
 
 const port = process.env.PORT || 3000
-const publicDirectoryPath = path.join(__dirname, '/public')
+const publicDirectoryPath = path.join(__dirname, '../public')
 
 app.use(express.static(publicDirectoryPath))
 
