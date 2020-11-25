@@ -5,5 +5,5 @@
 Using Node.js, Express.js, Socket.io.
 
 To run:
-1. Install Node modules using: npm install
-2. Run using the dev script: npm run dev
+1. Install Node modules using: **npm install**
+2. Run using the dev script: **npm run dev**
