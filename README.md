@@ -1,6 +1,6 @@
 # Chat-Rooms-App
 
-[Chat Rooms App](shadow-chat-app.herokuapp.com) Users can join rooms and chat with eachother.
+[Chat Rooms App](https://shadow-chat-app.herokuapp.com) Users can join rooms and chat with eachother.
 
 Using Node.js, Express.js, Socket.io.
 
